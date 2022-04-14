@@ -19,4 +19,13 @@ public class HelloController {
 
         return "Hello World";
     }
+
+    /**
+     * dev commit
+     * @return
+     */
+    @RequestMapping(value = "/sayHello" , method = RequestMethod.GET)
+    public String sayHello(){
+        return "wwww";
+    }
 }
